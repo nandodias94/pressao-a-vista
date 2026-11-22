@@ -9,24 +9,7 @@ from datetime import datetime, timezone
 # PRESSÃO À VISTA
 # ==================================================
 
-BASE_URL = "https://api.goal-api.com/v1"
-
-API_KEY = os.getenv("GOAL_API_KEY")
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-GITHUB_REPOSITORY = os.getenv("GITHUB_REPOSITORY")
-
-STATE_FILE = "pressao_state.json"
-
-MAX_STATS_PER_RUN = 2
-MINUTE_MIN = 15
-MINUTE_MAX = 85
-
-TIMEOUT = 25
-
-# ==================================================
+===========================================
 # SESSÃO
 # ==================================================
 
